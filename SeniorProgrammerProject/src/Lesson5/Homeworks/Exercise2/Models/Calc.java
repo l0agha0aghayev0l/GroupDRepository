@@ -2,10 +2,10 @@ package Lesson5.Homeworks.Exercise2.Models;
 
 public class Calc {
 
-    private int result;
+//    private int result;
 
     public int calc(int a, char operator, int b){
-        result = switch (operator){
+      int result = switch (operator){
             case '+' -> a + b;
             case '-' -> a - b;
             case '*' -> a * b;
