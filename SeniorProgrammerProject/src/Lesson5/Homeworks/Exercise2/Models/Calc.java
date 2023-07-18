@@ -5,7 +5,7 @@ public class Calc {
 //    private int result;
 
     public int calc(int a, char operator, int b){
-      int result = switch (operator){
+      int result = switch (operator){ // int result is local variable
             case '+' -> a + b;
             case '-' -> a - b;
             case '*' -> a * b;
